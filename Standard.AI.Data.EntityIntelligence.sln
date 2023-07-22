@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C9914D49-33F7-413D-BC6C-98F9C4842B9A}"
+	ProjectSection(SolutionItems) = preProject
+		ei-gitlogo.png = ei-gitlogo.png
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Standard.AI.Data.EntityIntelligence", "Standard.AI.Data.EntityIntelligence\Standard.AI.Data.EntityIntelligence.csproj", "{D6BF3D87-8F6C-440E-9757-A42C6B895BC4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Standard.AI.Data.EntityIntelligence.Tests.Acceptance", "Standard.AI.Data.EntityIntelligence.Tests.Acceptance\Standard.AI.Data.EntityIntelligence.Tests.Acceptance.csproj", "{59A192E3-FD10-44DB-BB44-938D17A52A18}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Standard.AI.Data.EntityIntelligence.Tests.Integrations", "Standard.AI.Data.EntityIntelligence.Tests.Integrations\Standard.AI.Data.EntityIntelligence.Tests.Integrations.csproj", "{80DBD189-3949-44E5-AF8D-E05FA660913B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Standard.AI.Data.EntityIntelligence.Tests.Unit", "Standard.AI.Data.EntityIntelligence.Tests.Unit\Standard.AI.Data.EntityIntelligence.Tests.Unit.csproj", "{C81CA00C-8492-4838-9DF3-278F3FE1C86D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D6BF3D87-8F6C-440E-9757-A42C6B895BC4} = {D6BF3D87-8F6C-440E-9757-A42C6B895BC4}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Standard.AI.Data.EntityIntelligence.Infrastructure.Build", "Standard.AI.Data.EntityIntelligence.Infrastructure.Build\Standard.AI.Data.EntityIntelligence.Infrastructure.Build.csproj", "{13326AF0-D973-4E7D-BD06-50EF47C0B402}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6BF3D87-8F6C-440E-9757-A42C6B895BC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6BF3D87-8F6C-440E-9757-A42C6B895BC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6BF3D87-8F6C-440E-9757-A42C6B895BC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6BF3D87-8F6C-440E-9757-A42C6B895BC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59A192E3-FD10-44DB-BB44-938D17A52A18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59A192E3-FD10-44DB-BB44-938D17A52A18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59A192E3-FD10-44DB-BB44-938D17A52A18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59A192E3-FD10-44DB-BB44-938D17A52A18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80DBD189-3949-44E5-AF8D-E05FA660913B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80DBD189-3949-44E5-AF8D-E05FA660913B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80DBD189-3949-44E5-AF8D-E05FA660913B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80DBD189-3949-44E5-AF8D-E05FA660913B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C81CA00C-8492-4838-9DF3-278F3FE1C86D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C81CA00C-8492-4838-9DF3-278F3FE1C86D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C81CA00C-8492-4838-9DF3-278F3FE1C86D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C81CA00C-8492-4838-9DF3-278F3FE1C86D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13326AF0-D973-4E7D-BD06-50EF47C0B402}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13326AF0-D973-4E7D-BD06-50EF47C0B402}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13326AF0-D973-4E7D-BD06-50EF47C0B402}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13326AF0-D973-4E7D-BD06-50EF47C0B402}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0072C5A0-F57E-4B09-8A23-173D6025F6FD}
+	EndGlobalSection
+EndGlobal
